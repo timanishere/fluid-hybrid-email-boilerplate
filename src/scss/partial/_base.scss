@@ -1,0 +1,89 @@
+// Base styles come here, if you don't use INK as a base framework.
+
+
+// ANY PROPERTY WITH "/* edit */" means you can change its values
+
+///////////////////////////////////////////////
+/// GENERAL SETTINGS: start
+///////////////////////////////////////////////
+body {
+    margin: 0 !important;
+    padding: 0;
+    background-color: #ffffff; /* edit */
+}
+
+table {
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #333333; /* edit */
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+
+// Hacky way of removing unwanted padding in Android 4.4
+div[style*="margin: 16px 0"] {
+    margin: 0 !important;
+}
+
+.wrapper {
+    width: 100%;
+    table-layout: fixed;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+// Will contain everything inside a div in Apple Mail 6 (and below) and Outlook 2011
+// Centers content in Yahoo mail
+.webkit {
+    max-width: 600px; /* edit - make sure width matches the width in the ghost table underneath webkit class and outer class in markup */
+    margin: 0 auto;
+}
+
+
+.outer {
+    Margin: 0 auto; // Hacky way of centering tables in Yahoo in chrome and so that outlook doesnt strip it out.
+    width: 100%;
+    max-width: 600px; /* edit - make sure width matches the width in the ghost table underneath webkit class and webkit class in markup */
+}
+
+.inner {
+    padding: 10px !important;
+}
+
+p {
+    Margin: 0;
+}
+///////////////////////////////////////////////
+/// GENERAL SETTINGS: end
+///////////////////////////////////////////////
+
+
+
+///////////////////////////////////////////////
+/// HEADER: start
+///////////////////////////////////////////////
+
+///////////////////////////////////////////////
+/// HEADER: end
+///////////////////////////////////////////////
+
+
+
+///////////////////////////////////////////////
+/// FOOTER: start
+///////////////////////////////////////////////
+
+///////////////////////////////////////////////
+/// FOOTER: end
+///////////////////////////////////////////////
+
+
+

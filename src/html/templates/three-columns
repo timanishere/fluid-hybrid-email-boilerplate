@@ -1,0 +1,65 @@
+<tr>
+    <td class="ta-c no-font-size">
+        <!--[if (gte mso 9)|(IE)]>
+        <table width="100%">
+        <tr>
+        <td width="33.3%" valign="top">
+        <![endif]-->
+        <div class="three-col">
+            <table width="100%">
+                <tr>
+                    <td class="inner">
+                        <table width="100%">
+                            <tr>
+                                <td class="main-font-size">
+                                    [content goes here]
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!--[if (gte mso 9)|(IE)]>
+        </td><td width="33.3%" valign="top">
+        <![endif]-->
+        <div class="three-col">
+            <table width="100%">
+                <tr>
+                    <td class="inner">
+                        <table width="100%">
+                            <tr>
+                                <td class="main-font-size">
+                                    [content goes here]
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!--[if (gte mso 9)|(IE)]>
+        </td><td width="33.3%" valign="top">
+        <![endif]-->
+        <div class="three-col">
+            <table width="100%">
+                <tr>
+                    <td class="inner">
+                        <table width="100%">
+                            <tr>
+                                <td class="main-font-size">
+                                    [content goes here]
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+    </td>
+</tr>

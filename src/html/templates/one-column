@@ -1,0 +1,21 @@
+<!-- ONE COLUMN -->
+<tr>
+	<td>
+	<!--[if (gte mso 9)|(IE)]>
+        <table width="100%">
+        <tr>
+        <td width="100%" valign="top">
+        <![endif]-->
+		<div class="one-col">
+			<table width="100%">
+				<tr>
+					<td class="inner">
+						[content goes here]
+					</td>
+				</tr>
+			</table>
+		</div>
+	<!--[if (gte mso 9)|(IE)]>
+	    </td><![endif]-->
+	</td>
+</tr>

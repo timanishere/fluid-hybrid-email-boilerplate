@@ -1,0 +1,175 @@
+///////////////////////////////////////////////
+/// COLUMN SETTINGS: start
+///////////////////////////////////////////////
+.one-col {
+	width:100%;
+	max-width: 600px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.two-col {
+	width: 100%;
+	max-width: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.three-col {
+	width: 100%;
+	max-width: 200px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.four-col {
+	width: 100%;
+	max-width: 150px;
+	display: inline-block;
+	vertical-align: top;
+}
+///////////////////////////////////////////////
+/// COLUMN SETTINGS: start
+///////////////////////////////////////////////
+
+
+
+///////////////////////////////////////////////
+/// ALIGNMENT SETTINGS: start
+///////////////////////////////////////////////
+.ta-l {
+	text-align: left;
+}
+.ta-r {
+	text-align: right;
+}
+.ta-c {
+	text-align: center;
+}
+///////////////////////////////////////////////
+/// ALIGNMENT SETTINGS: end
+///////////////////////////////////////////////
+
+
+
+///////////////////////////////////////////////
+/// TEXT DECORATION SETTINGS: start
+///////////////////////////////////////////////
+.td-u {
+	text-decoration: underline;
+} 
+///////////////////////////////////////////////
+/// TEXT DECORATION SETTINGS: end
+/////////////////////////////////////////////// 
+
+
+
+///////////////////////////////////////////////
+/// IMAGE SETTINGS: start
+/////////////////////////////////////////////// 
+.full-width-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+///////////////////////////////////////////////
+/// IMAGE SETTINGS: end
+/////////////////////////////////////////////// 
+
+
+
+///////////////////////////////////////////////
+/// MARGIN SETTINGS: start
+///////////////////////////////////////////////
+// MARGIN TOP
+$i: 1;
+
+@while $i < 101 {
+	.mt-#{$i} {
+		Margin-top: 1px * $i;
+	}
+	$i: $i + 1;
+}
+
+// MARGIN BOTTOM
+$i: 1;
+
+@while $i < 101 {
+	.mb-#{$i} {
+		Margin-bottom: 1px * $i;
+	}
+	$i: $i + 1;
+}
+
+// MARGIN LEFT
+$i: 1;
+
+@while $i < 101 {
+	.ml-#{$i} {
+		Margin-left: 1px * $i;
+	}
+	$i: $i + 1;
+}
+
+// MARGIN RIGHT
+$i: 1;
+
+@while $i < 101 {
+	.mr-#{$i} {
+		Margin-right: 1px * $i;
+	}
+	$i: $i + 1;
+}
+///////////////////////////////////////////////
+/// MARGIN SETTINGS: end
+///////////////////////////////////////////////
+
+
+
+///////////////////////////////////////////////
+/// PADDING SETTINGS: start
+///////////////////////////////////////////////
+.no-padding {
+	padding: 0 !important;
+}
+
+// PADDING TOP
+$i: 1;
+@while $i < 101 {
+	.pt-#{$i} {
+		padding-top: 1px * $i !important;
+	}
+	$i: $i + 1;
+}
+
+// PADDING BOTTOM
+$i: 1;
+@while $i < 101 {
+	.pb-#{$i} {
+		padding-bottom: 1px * $i !important;
+	}
+	$i: $i + 1;
+}
+
+
+// PADDING LEFT
+$i: 1;
+@while $i < 101 {
+	.pl-#{$i} {
+		padding-left: 1px * $i !important;
+	}
+	$i: $i + 1;
+}
+
+// PADDING RIGHT
+$i: 1;
+@while $i < 101 {
+	.pr-#{$i} {
+		padding-right: 1px * $i !important;
+	}
+	$i: $i + 1;
+
+}
+///////////////////////////////////////////////
+/// PADDING SETTINGS: end
+///////////////////////////////////////////////
